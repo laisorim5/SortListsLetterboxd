@@ -1,0 +1,40 @@
+/* Estilos CSS aqui */
+
+/* Cor de fundo */
+body {
+    background-color: #4C91E4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Alterado para exibir os itens verticalmente */
+    height: 100vh;
+    margin: 0;
+}
+
+/* Estilo para o cabeçalho */
+h1 {
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px; /* Adicionando espaço abaixo do h1 */
+}
+
+/* Estilo para os checkboxes */
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Adicionando espaço entre os grupos de checkbox */
+}
+
+.checkbox-group input[type="checkbox"] {
+    background-color: white;
+    margin-right: 5px;
+    border-radius: 5px; /* Adicionando bordas arredondadas */
+    padding: 5px; /* Espaçamento interno */
+}
+
+/* Estilo para os labels dos checkboxes */
+.checkbox-group label {
+    color: white;
+    font-family: Helvetica, sans-serif;
+}

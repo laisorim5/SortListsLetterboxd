@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteio de Listas</title>
+    <link rel="stylesheet" href="style.css"> <!-- Vincular o arquivo CSS -->
+</head>
+<body>
+    <h1>Sorteio de Listas do Letterboxd</h1>
+    <div class="container">
+        <div class="checkbox-group">
+            <input type="checkbox" id="lista1" value="Laís Souza Amorim eu te amo [Vini]">
+            <label for="lista1">Laís Souza Amorim eu te amo [Vini]</label><br>
+        </div>
+        <div class="checkbox-group">
+            <input type="checkbox" id="lista2" value="Laís' Watchlist">
+            <label for="lista2">Laís' Watchlist</label><br>
+        </div>
+        <div class="checkbox-group">
+            <input type="checkbox" id="lista3" value="Recomendations [Laís]">
+            <label for="lista3">Recomendations [Laís]</label><br>
+        </div>
+        <div class="checkbox-group">
+            <input type="checkbox" id="lista4" value="Vini Favs">
+            <label for="lista4">Vini Favs</label><br>
+        </div>
+        <button onclick="sortearListas()">Sortear</button><br><br><br>
+        <p id="resultado"></p>
+    </div>
+
+    <script src="sort.js"></script>
+    
+</body>
+</html>
